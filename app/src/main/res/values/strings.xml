@@ -7,4 +7,6 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="title_activity_light">LightActivity</string>
 </resources>

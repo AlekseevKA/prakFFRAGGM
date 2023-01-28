@@ -41,21 +41,21 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/loginEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="E-mail"
-                android:inputType="textPersonName"
+                android:inputType="textEmailAddress"
                 android:textColorHint="#FFFFFF" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/loginPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Password"
-                android:inputType="textPersonName"
+                android:inputType="textPassword"
                 android:textColorHint="#FFFFFF" />
         </LinearLayout>
 

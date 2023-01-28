@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#EAEAEA"
     android:padding="@dimen/box_inset_layout_padding"
-    tools:context=".MainActivity"
+    tools:context=".DeviceActivity"
     tools:deviceIds="wear">
 
     <FrameLayout
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|top"
-            android:text="Rooms"
+            android:text="Devices"
             android:textColor="#6053A5"
             android:textStyle="bold" />
 
@@ -33,24 +33,28 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/lightLay"
                 android:layout_width="85dp"
                 android:layout_height="80dp"
                 android:background="@drawable/linearlayoutst"
+                android:clickable="true"
                 android:orientation="vertical">
 
                 <ImageButton
                     android:id="@+id/livingRoom1"
-                    android:layout_width="70dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/room" />
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightphiol" />
 
                 <TextView
                     android:id="@+id/livingText1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
                     android:gravity="center"
-                    android:text="Living Room"
+                    android:text="Light"
                     android:textColor="#000000"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -65,18 +69,19 @@
 
                 <ImageButton
                     android:id="@+id/livingRoom2"
-                    android:layout_width="70dp"
-                    android:layout_height="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_gravity="center"
 
-                    android:background="@drawable/room" />
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lightphiol" />
 
                 <TextView
                     android:id="@+id/livingText2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Living Room"
+                    android:text="Light"
                     android:textColor="#000000"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -91,22 +96,23 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="125dp"
             android:background="@drawable/linearlayoutst1"
-            android:clickable="true"
+            android:clickable="false"
             android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/livingRoom3"
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_gravity="center"
-                android:background="@drawable/roomwhite" />
+                android:layout_marginTop="10dp"
+                android:background="@drawable/thermowhite" />
 
             <TextView
                 android:id="@+id/livingText3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Living Room"
+                android:text="Thermostat"
                 android:textColor="#FFFFFF"
                 android:textSize="12sp"
                 android:textStyle="bold" />
